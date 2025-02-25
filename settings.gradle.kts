@@ -16,8 +16,13 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven {
+            url = uri("https://cardinalcommerceprod.jfrog.io/artifactory/android")
+        }
     }
 }
+
+
 
 rootProject.name = "PaymentWithPayPal"
 include(":app")
