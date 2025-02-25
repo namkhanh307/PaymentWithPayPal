@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/drinkImage"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:scaleType="centerCrop"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:id="@+id/drinkNameDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drink Name"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/drinkDescriptionDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drink Description"
+        android:textSize="16sp"
+        android:textColor="#757575"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/drinkPriceDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price: 100,000 VNĐ"
+        android:textColor="#FF5722"
+        android:textStyle="bold"
+        android:layout_marginTop="4dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/btnMinus"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="-"/>
+
+        <TextView
+            android:id="@+id/drinkQuantity"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="1"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btnPlus"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="+"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAddToCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add to Cart"
+        android:textStyle="bold"
+        android:backgroundTint="#FF5722"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

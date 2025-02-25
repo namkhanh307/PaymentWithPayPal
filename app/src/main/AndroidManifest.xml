@@ -23,6 +23,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".DrinksActivity" />
+        <activity
+            android:name=".FoodActivity" />
+        <activity
+            android:name=".CartActivity" />
+        <activity
+            android:name=".CheckoutActivity" />
+        <activity
+            android:name=".DrinkDetailActivity" />
+        <activity
+            android:name=".FoodDetailActivity" />
+        <activity
+            android:name=".PayActivity" />
+
     </application>
 
 </manifest>
